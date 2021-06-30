@@ -1,0 +1,25 @@
+{
+    "name": "wtl/phpunit-test",
+    "description": "Testing some phpunit stuff",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wtl\\PhpunitTest\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Steffen Eißmann",
+            "email": "steffen.eissmann@wtl.de"
+        }
+    ],
+    "require": {}
+}
