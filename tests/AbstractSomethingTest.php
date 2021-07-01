@@ -5,6 +5,9 @@ namespace Tests;
 use Wtl\PhpunitTest\AbstractSomething;
 use PHPUnit\Framework\TestCase;
 
+/**
+ * @covers \Wtl\PhpunitTest\AbstractSomething
+ */
 class AbstractSomethingTest extends TestCase
 {
     /**

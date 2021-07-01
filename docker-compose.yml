@@ -5,3 +5,5 @@ services:
       working_dir: /application/
       volumes:
         - .:/application/
+      environment:
+        XDEBUG_MODE: develop,debug,coverage

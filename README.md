@@ -10,6 +10,6 @@ docker-compose -pphpunit exec php-fpm composer install
 
 ## run
 ```bash
-docker-compose -pphpunit exec php-fpm vendor/bin/phpunit tests --testdox
+docker-compose -pphpunit exec php-fpm vendor/bin/phpunit --testdox
 ```
 
